@@ -1,0 +1,92 @@
+.branch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+    padding-left: 5%;
+}
+
+.branch_item {
+    display: flex;
+    flex-direction: row;
+    width: 32%;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.branch_item:hover {
+    background-color: rgb(236, 199, 154);
+    cursor: pointer;
+}
+
+.picture {
+    width: 10%;
+    padding: 10px 7px 5px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.content {
+    width: 90%;
+}
+
+.name {
+    color: rgba(165, 42, 42, 0.69); 
+    font-size: 17px;
+}
+
+.link a {
+    color: rgb(255, 132, 0);
+}
+
+.link a:hover {
+    color: blue;
+}
+
+@media (max-width: 1100px){
+    .picture {
+        visibility: collapse;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 660px){
+    .branch_item {
+        display: flex;
+        flex-direction: row;
+        width: 48%;
+        padding: 10px;
+        background-color: bisque;
+    }
+}
+
+@media (max-width: 480px){
+    .branch_item {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 10px;
+        background-color: bisque;
+    }
+
+    .branch{
+        padding-left: 0;
+    }
+
+    .branch_item{
+        padding: 5px;
+    }
+
+    .picture{
+        display: none;
+    }
+
+    .content{
+        padding-left: 5%;
+    }
+}
+

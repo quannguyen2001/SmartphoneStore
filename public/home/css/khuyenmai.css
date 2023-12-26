@@ -1,0 +1,105 @@
+.body-tintuc{
+	margin: 20px 50px 50px 90px;
+	width: 80%;
+}
+
+.tintuc-info{
+	height: 170px;
+	border-bottom: 1px solid #FCF;
+	margin-top: 5px;
+
+}
+.tintuc-info img{
+	border: 1px solid gray;
+	float: left;
+	margin-right: 10px;
+	padding:5px;
+	border-radius: 5px;
+	height:148px;
+	width:224px;
+}
+.tintuc-info a:hover{
+	color: #666;
+}
+.tintuc-info h5{
+	font-weight: 100;
+	font-style: italic;
+	color: gray;
+}
+
+@media (max-width: 660px){
+	.body-tintuc{
+		margin: 20px 30px 30px 90px;
+		width: 80%;
+	}
+
+	.tintuc-info{
+		height: 170px;
+		border-bottom: 1px solid #FCF;
+		margin-top: 5px;
+	
+	}
+}
+
+@media (max-width: 550px){
+	.body-tintuc{
+		margin: 20px 30px 30px 90px;
+		width: 70%;
+	}
+
+	.tintuc-info img{
+		border: 1px solid gray;
+		float: left;
+		margin-right: 10px;
+		padding:5px;
+		border-radius: 5px;
+		height:128px;
+		width:164px;
+	}
+
+	.tintuc-info{
+		height: 150px;
+		border-bottom: 1px solid #FCF;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		overflow: hidden;
+	
+	}
+
+	
+}
+
+@media (max-width: 440px){
+	.body-tintuc{
+		margin: 20px 30px 30px 90px;
+		width: 70%;
+	}
+
+	.tintuc-info img{
+		border: 1px solid gray;
+		float: left;
+		margin-right: 10px;
+		padding:5px;
+		border-radius: 5px;
+		height:128px;
+		width:164px;
+	}
+
+	.tintuc-info{
+		height: 150px;
+		border-bottom: 1px solid #FCF;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		overflow: hidden;
+	
+	}
+	.tintuc-info b{
+		font-size: 15px;
+	}
+
+	h5{
+		visibility: collapse;
+	}
+
+	
+}

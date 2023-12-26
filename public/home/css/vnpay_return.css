@@ -1,0 +1,57 @@
+.header_payment {
+	/* width: 80%; */
+	font-size: 25px;
+    text-align: center;
+}
+
+.payment_info {
+	height: 400px;
+	background: pink;
+	padding: 30px;
+}
+
+.payment_info_item {
+	font-size: 20px;
+    border: 2px dashed green;
+    margin-top: 5px;
+    padding-left: 5px;
+    background-color: azure;
+}
+
+.container{
+	padding: 1px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.payment_thanks {
+	font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.return{
+    font-size: 16px;
+    font-weight: bold;
+    color: green;
+}
+
+.return:hover{
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+@media (max-width: 660px) {
+	.payment_info {
+        height: 420px;
+    }
+}
+
+@media (max-width: 450px) {
+
+	.payment_info {
+        height: 450px;
+    }
+}

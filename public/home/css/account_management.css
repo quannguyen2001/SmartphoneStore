@@ -1,0 +1,262 @@
+.contaniner {
+    display: flex;
+    padding: 1px;
+    margin: 30px 0 30px 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(161, 228, 171);
+    min-height: 400px;
+}
+
+.menu{
+    text-align: center;
+}
+
+.sidebar{
+    border: 1px solid black;
+    background-color: rgb(234, 251, 234);
+    width: 20%;
+    border-radius: 5px;
+}
+
+.sidebar_item{
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgb(166, 186, 166);
+    padding: 5px;
+    width: 100%;
+    min-height: 35px;
+}
+
+.sidebar_item:hover{
+    background-color: rgba(142, 237, 142, 0.477);
+    color: blue;
+    cursor: pointer;
+}
+
+.message{
+    padding: 10px;
+}
+
+.div_center {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.div_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.content_item{
+    width: 48%;
+    height: 165px;
+    background-color: blanchedalmond;
+    padding: 10px;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
+
+.content_number{
+    font-size: 60px;
+}
+
+.font_size {
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.text_color {
+    color: black;
+    padding-bottom: 20px;
+}
+
+.menu-item.active {
+    color: #fff; /* Màu chữ khi mục được chọn */
+}
+
+.active {
+    .sidebar_item{
+        border: 1px solid black;
+        border-radius: 2px;
+        background-color: rgb(78, 154, 78);
+        padding: 5px;
+        width: 100%;
+        min-height: 35px;
+    }
+
+    .sidebar_item:hover{
+        background-color: rgba(78, 154, 78, 0.819);
+        color: yellow;
+        cursor: pointer;
+    }
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+.div_design {
+    padding-bottom: 15px;
+}
+
+input {
+    width: 300px;
+}
+
+.button {
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: rgb(187, 182, 164) !important;
+    width: 240px;
+    height: 35px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.button:hover {
+    background-color: rgb(255, 157, 0) !important;
+}
+
+@media (max-width: 780px){
+    .div_center {
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 680px){
+    .contaniner {
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+    }
+
+    .sidebar{
+        display: flex;
+        flex-direction: row;
+        width: 100%; 
+    }
+
+    .sidebar_item{
+        text-align: center;font-size: 15px;      
+    }
+
+    .sidebar_item b{
+        font-size: 15px;      
+    }
+
+    label {
+        float: left;
+        padding-left: 45px;
+    }
+
+    .div_center {
+        padding-left: 20px;
+    }
+
+    .div_content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 100% !important;
+        padding: 25px;
+    }
+
+    .content_item p{
+        font-size: 20px;
+    }
+
+
+
+}
+
+@media (max-width: 580px){
+    .contaniner {
+        display: flex;
+        flex-direction: column;
+        height: 650px;
+    } 
+
+    .sidebar_item b{
+        font-size: 12px;      
+    }
+}
+
+@media (max-width: 510px){ 
+    .sidebar_item{
+        border: 1px solid black;
+        border-radius: 2px;
+        background-color: rgb(166, 186, 166);
+        padding: 5px;
+        width: 100%;
+        min-height: 80px;
+    }
+
+    .sidebar_item b{
+        font-size: 12px;      
+    }
+
+    .content_item{
+        width: 48%;
+        height: 165px;
+        background-color: blanchedalmond;
+        padding: 5px;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .active {
+        .sidebar_item{
+            min-height: 80px;
+        }
+    }
+}
+
+@media (max-width: 480px){
+    .sidebar b{
+        font-size: 12px;      
+    }
+    .div_center {
+        padding-left: 10px;
+    }
+
+    .div_content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 100% !important;
+        padding: 25px;
+    }
+
+    .content_item{
+        width: 45%;
+        height: 145px;
+        background-color: blanchedalmond;
+        padding: 5px;
+        color: white;
+        text-align: center;
+    }
+
+    .content_item p{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 410px){
+    .sidebar b{
+        font-size: 11px;      
+    }
+}
